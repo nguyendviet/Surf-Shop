@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Original+Surfer" rel="stylesheet">
+		<title>The Surf Shop - Home</title>
+	</head>
+	
+	<body>
+		<nav>
+			<div class="dropdown" style="float:left;">
+				<button class="dropbtn">
+					<div class="sandwichMenu"></div>
+					<div class="sandwichMenu"></div>
+				</button>
+				
+				<div class="dropdown-content" style="left:0;">
+					<a href="shop.html">Shop</a>
+					<a href="events.html">Events</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+			
+			<div class="logo">
+				<a href="index.html">The Surf Shop</a>
+			</div>
+		</nav>
+		
+		<!--
+		working on:
+		destop view (1024px): full menu, video jumbotron
+		-->
+		<!-- working on the video banner -->
+		<div class="jumbotron">
+			<video class="jumbotronVideo" preload muted autoplay loop>
+				<source src="assets/wave.mp4" type="video/mp4"/>
+			</video>
+			
+			<div class="jumbotronContent">
+				<article class="jumbotronText">
+				<p>Nullam a condimentum mauris. Donec at sem ac felis lacinia placerat in in risus. Vivamus nec ullamcorper erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec at ante ligula. Fusce est justo, eleifend non metus eget, luctus laoreet neque. Maecenas nulla lectus, aliquam vitae blandit non, consectetur ultricies leo. Praesent eget bibendum ante. Donec eu tellus condimentum, iaculis felis sit amet, maximus eros.</p>
+				</article>
+				<a href="shop.html"><div class="button jButton jbShop">Shop</div></a>
+				<a href="events.html"><div class="button jButton jbEvents">Events</div></a>
+				<a href="contact.html"><div class="button jButton jbContact">Contact</div></a>
+			</div>
+		</div>
+		
+		<!-- DON'T NEED THIS PART YET
+		<div class="hiddenContent">
+			<article class="hiddenText">
+				<h3 class="boxTitle">About Me</h3>
+				<p class="typl8-drop-cap">Hello! My name is Viet Nguyen. After my graduation, I spent a few years backpacking in Southeast Asia, and working remotely for a tech company as a project manager. I ended up opening my own start-up, ran it for more than a year before moving to the US. Now I'm attending a coding bootcamp at the George Washington University in Washington DC to become a full stack web developer.</P>
+				<p>I play football, love surfing, seafood and anything sweet. My all time favourite band is The Beatles, and I love all kinds of music from classical to rap and electro.</p>
+			</article>
+			<img src="assets/images/viet.png" class="hiddenImg"/>
+		</div>
+		-->
+		
+		<!-- construction end here -->
+		
+		<!-- below part is ready, no need to fix -->
+		<div class="content">
+			<div class="container">
+			
+				<div class="card clearfix">
+					<h1 class="title">Shop</h1>
+					<div class="containerImg imgHalf imgLeft">
+						<a href="shop.html">
+							<img src="assets/shop.png" alt="Shop" class="img"/>
+							<div class="details">Click for Details</div>
+						</a>
+					</div>
+					<div>
+						<p>Suspendisse mattis vel nisl ut pellentesque. Aliquam semper ullamcorper cursus. Pellentesque eu tincidunt sem. Nam gravida eu neque in hendrerit. Nulla interdum augue at felis mollis convallis. Sed ipsum leo, gravida et suscipit in, sollicitudin sit amet urna. Suspendisse luctus facilisis massa ut feugiat. In ipsum felis, iaculis eget diam at, dictum posuere erat. In placerat maximus turpis, non convallis eros egestas vitae.</p>
+					</div>
+				</div>
+				
+				<div class="card clearfix">
+					<h1 class="title">Events</h1>
+					<div class="containerImg imgHalf imgRight">
+						<a href="events.html">
+							<img src="assets/events.png" alt="Events" class="img"/>
+							<div class="details">Click for Details</div>
+						</a>
+					</div>
+					<div>
+						<p>Nulla ut odio nec lacus lacinia ornare. Integer ut finibus nunc, vestibulum lobortis sem. Ut risus turpis, tempor eget consectetur in, congue et massa. Nunc accumsan, neque non consectetur tincidunt, est dui sodales tortor, et placerat orci magna ac purus. Praesent a varius diam, quis semper ex. In eget dolor neque. Vivamus lobortis volutpat neque vitae fringilla. Vestibulum congue tellus quam, quis condimentum augue ultricies ac. Etiam scelerisque vehicula purus ut vehicula. Suspendisse finibus sed tortor nec viverra.</p>
+					</div>
+				</div>
+				
+				<div class="card clearfix lastCard">
+					<h1 class="title">Contact</h1>
+					<div class="containerImg imgHalf imgLeft">
+						<a href="contact.html">
+							<img src="assets/contact.png" alt="Contact" class="img"/>
+							<div class="details">Click for Details</div>
+						</a>
+					</div>
+					<div>
+						<p>Maecenas quis mauris porttitor, vestibulum velit sit amet, convallis lacus. Proin non purus lacus. Fusce dignissim nulla ac lacinia iaculis. Donec id velit eget massa condimentum tristique id sed odio. Proin porttitor malesuada odio, non venenatis justo interdum vel. Curabitur eleifend nibh quis lacus blandit, eu semper sapien pulvinar. Sed congue tellus nec ex molestie, eget imperdiet ante suscipit. Nunc in purus ligula. Quisque vitae dignissim arcu. Aliquam eget justo vitae neque sollicitudin vestibulum a eget ante.</p>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="copyright">&copy; Viet Nguyen 2017</div>
+		</footer>
+	</body>
+</html>
