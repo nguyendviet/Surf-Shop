@@ -417,6 +417,10 @@ nav {
 	margin: 10px auto;
 }
 
+.button:hover {
+	background-color: #87ceeb;
+}
+
 /*========================================================SHOP CONTENT*/
 .containerItem {
 	margin: 1%;
@@ -427,6 +431,14 @@ nav {
 
 .itemDecor {
 	border: 2px solid #eeeadd;
+	border-top: 0;
+	border-bottom: 0;
+	border-radius: 1em;
+}
+
+.itemDecor p {
+	margin: 5px;
+	padding: 5px;
 }
 
 .surfboard {
@@ -564,6 +576,11 @@ nav {
 	
 	.imgHalf {
 		width: 100%;
+	}
+	
+	.containerItem {
+		width: 48%;
+		float: left;
 	}
 }
 
