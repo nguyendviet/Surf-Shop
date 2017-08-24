@@ -8,6 +8,7 @@ body {
 	background-image: url("wave.png");
 	display: flex;
 	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body, html {
@@ -75,6 +76,41 @@ nav {
 
 .dropdown:hover .sandwichMenu {
     background-color: #eeeadd;
+}
+/*========================================================FULL MENU*/
+.menu {
+	display: none;
+	height: 100px;
+	margin-right: 10%;
+	font-family: 'Original Surfer', cursive;
+	font-size: 24px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 25px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+    border-bottom: 2px solid #eeeadd;
+}
+
+.active {
+    border-bottom: 2px solid #c2b280;
 }
 
 /*========================================================LOGO*/
@@ -161,7 +197,6 @@ nav {
 	margin-left: 25%;
 	text-align: center;
 	vertical-align: middle;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #eeeadd;
 }
@@ -284,10 +319,17 @@ nav {
 	margin: 30px auto;
 	background-color: white;
 	padding: 5px 0;
-	font-family: 'Open Sans', sans-serif;
 	border-top: 3px solid #c2b280;
 	border-bottom: 3px solid #c2b280;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.container h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c2b280;
+	margin-bottom: 5px;
 }
 
 .textWrap { 
@@ -303,14 +345,6 @@ nav {
 	font-size: 16px;
 	line-height: 24px;
 }
-
-.title {
-	font-weight: bold;
-	font-size: 20px;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #c2b280;
-	margin-bottom: 5px;
-} /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< REMOVE THIS CLASS*/
 
 .cardBorder {
 	border: 2px solid #c2b280;
@@ -359,7 +393,7 @@ nav {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 30px;
-}
+} /*<========================= need work smaller screen affects button*/
 
 .details:hover {
 	background-color: #87ceeb;
@@ -457,7 +491,6 @@ nav {
 	flex-shrink: 0;
 	width: 100%;
 	height: 50px;
-	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 14px;
 	line-height: 50px;
@@ -513,6 +546,11 @@ nav {
 		display: inline-block;
 	}
 	
+	.container h1 {
+		display: block;
+		text-align: center;
+	}
+	
 	.card {
 		width: 30%;
 		margin-right: 3%;
@@ -524,11 +562,6 @@ nav {
 		margin-right: 1%;
 	}
 	
-	.title {
-		display: block;
-		text-align: center;
-	}
-	
 	.imgHalf {
 		width: 100%;
 	}
@@ -536,6 +569,10 @@ nav {
 
 /*LAPTOP*/
 @media only screen and (min-width: 1024px) {
+	.menu {
+		display: block;
+	}
+
 	.jumbotron {
 		padding: 0;
 		position: relative;
