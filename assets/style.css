@@ -125,7 +125,6 @@ nav {
 	line-height: 60px;
 	font-family: 'Original Surfer', cursive;
 	font-size: 26px;
-	color: black;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	/*====================LOGO ANIMATION*/
 	position: relative;
@@ -138,7 +137,6 @@ nav {
 
 .logo a {
 	text-decoration: none;
-	color: black;
 }
 
 .logo:hover {
@@ -170,6 +168,29 @@ nav {
 	87.5% 	{background-color: #FF0000; left:-5px; top:-5px;}
     100% 	{background-color: white; left:0px; top:0px;}
 }
+
+.logoText {
+	-webkit-animation-name: logoText; Safari 4.0 - 8.0
+    -webkit-animation-duration: 10s; Safari 4.0 - 8.0
+    animation-name: logoText;
+    animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes logoText {
+    0%   	{color: black;}
+    50%  	{color: white;}
+    100% 	{color: black;}
+}
+
+/*Standard syntax*/
+@keyframes logoText {
+    0%   	{color: black;}
+    50%  	{color: white;}
+    100% 	{color: black;}
+}
+
 /*========================================================PAGE CONTENT*/
 /*==================JUMBOTRON START*/
 .jumbotron {
