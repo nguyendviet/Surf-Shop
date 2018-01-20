@@ -9,7 +9,7 @@ How far can you go with just HTML and CSS in order to build a responsive website
 ### Demo
 * GitHub IO: [Surf Shop](https://nguyendviet.github.io/Surf-Shop/)
 
-<img src="https://media.giphy.com/media/l49K0Kr1dJclD9Txu/giphy.gif" width="400"/>
+<img src="https://media.giphy.com/media/l0HUo0atIQMQl2dxe/giphy.gif" width="800"/>
 
 ## Technologies
 * **Raw** HTML5 and CSS3.
