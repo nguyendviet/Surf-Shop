@@ -5,7 +5,8 @@ A responsive website of an imaginary surf shop with main, shop, event and contac
 
 ### Demo
 * GitHub IO: [Surf Shop](https://nguyendviet.github.io/Surf-Shop/)
-<img src="https://github.com/nguyendviet/Surf-Shop/blob/master/surf-shop.png" width="800"/>
+
+<img src="https://media.giphy.com/media/l49K0Kr1dJclD9Txu/giphy.gif" width="800"/>
 
 ## Technologies
 * **Raw** HTML5 and CSS3.
